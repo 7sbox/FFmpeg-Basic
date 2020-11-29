@@ -1,12 +1,12 @@
 # FFmpeg Basics  ![status](https://img.shields.io/badge/status-unfinished-red.svg?style=flat)
 > This is a Visual Studio 2017 solution.   
-> FFmpeg version: ffmpeg-3.2.4-win64   
+> FFmpeg version: ffmpeg-3.4.2-win64   
 
 ## Introduction
 This is the ffmpeg introductory tutorial with code samples. The tutorial focuses on ffmpeg API basic usage, such as encoding, decoding, muxing, demuxing, scaling and transcoding.
 ## Configure Environment
 > This solution has been configured.  
-> 此解决方案已经配置好了x64平台开发环境。
+> 此解决方案已经配置好了x64-debug平台开发环境。
 
 Configure VS2017 FFmpeg project.
 - **Properties - C/C++ - General - Additional Include Directories**   
