@@ -23,7 +23,7 @@
     <ProjectGuid>{FBD6F7D8-8328-4CD3-9C1D-C6963F9F852B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My3AudioDecoding</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

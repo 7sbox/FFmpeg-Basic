@@ -374,8 +374,8 @@ bool Transcoding::initFilter(FilteringContext * fctx, AVCodecContext * decCtx, A
 
     // get AVFilterContext 
     if (decCtx->codec_type == AVMEDIA_TYPE_VIDEO) {
-        buffersrc = avfilter_get_by_name("buffer");
-        buffersink = avfilter_get_by_name("buffersink");
+        buffersrc = (AVFilter *)avfilter_get_by_name("buffer");
+        buffersink = (AVFilter *)avfilter_get_by_name("buffersink");
         if (!buffersrc || !buffersink) {
             av_log(NULL, AV_LOG_ERROR, "filtering source or sink element not found\n");
             //return true;
@@ -408,8 +408,8 @@ bool Transcoding::initFilter(FilteringContext * fctx, AVCodecContext * decCtx, A
         }
     }
     else if (decCtx->codec_type == AVMEDIA_TYPE_AUDIO) {
-        buffersrc = avfilter_get_by_name("abuffer");
-        buffersink = avfilter_get_by_name("abuffersink");
+        buffersrc = (AVFilter *)avfilter_get_by_name("abuffer");
+        buffersink = (AVFilter *)avfilter_get_by_name("abuffersink");
         if (!buffersrc || !buffersink) {
             printf("filtering source or sink element not found\n");
             return true;
