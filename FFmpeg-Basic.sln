@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-Remuxing", "5-Remuxing\5-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-Tanscoding", "6-Tanscoding\6-Tanscoding.vcxproj", "{EC262B0B-343F-4642-9FD3-2D13C7F2A69A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A-Temp", "A-Temp\A-Temp.vcxproj", "{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -87,8 +89,19 @@ Global
 		{EC262B0B-343F-4642-9FD3-2D13C7F2A69A}.Release|x64.Build.0 = Release|x64
 		{EC262B0B-343F-4642-9FD3-2D13C7F2A69A}.Release|x86.ActiveCfg = Release|Win32
 		{EC262B0B-343F-4642-9FD3-2D13C7F2A69A}.Release|x86.Build.0 = Release|Win32
+		{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}.Debug|x64.ActiveCfg = Debug|x64
+		{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}.Debug|x64.Build.0 = Debug|x64
+		{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}.Debug|x86.ActiveCfg = Debug|Win32
+		{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}.Debug|x86.Build.0 = Debug|Win32
+		{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}.Release|x64.ActiveCfg = Release|x64
+		{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}.Release|x64.Build.0 = Release|x64
+		{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}.Release|x86.ActiveCfg = Release|Win32
+		{C2581DAB-6E7F-42C3-9EA6-E5E1C72B502A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F955445-6124-48B1-B36C-17D5BA5C1739}
 	EndGlobalSection
 EndGlobal
