@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     char *inputFile = "../assets/Sample.mkv";
 
     // Register all components
-    av_register_all();
+    //av_register_all();
 
     // Open an input stream and read the header.
     if (avformat_open_input(&fmtCtx, inputFile, NULL, NULL) < 0) {
