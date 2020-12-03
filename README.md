@@ -48,3 +48,6 @@ Changing the "container" format used for a given file. For example from MKV to T
 
 ### 6. Tanscoding    ![status](https://img.shields.io/badge/status-unfinished-red.svg?style=flat)    
 读取视频文件Sample.mkv，解复用抽取音视流，分别编码为HEVC/H.265视频流和OGG音频流，并封装为Sample.ts。   
+
+### A. Temp    ![status](https://img.shields.io/badge/status-unfinished-red.svg?style=flat)    
+录屏并显示. 编码为H.264视频格式，并保存为原始YUV420P格式视频文件save.h264。 
